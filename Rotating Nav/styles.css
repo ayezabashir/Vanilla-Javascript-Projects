@@ -10,7 +10,7 @@ body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background: #e0e0e0;
+  background: #f17f34a1;
   color: #222;
   overflow-x: hidden;
   word-spacing: 5px;
@@ -29,6 +29,11 @@ body {
 .container.show-nav {
   transform: rotate(-20deg);
 }
+
+.container.show-nav .circle {
+  transform: rotate(-84deg);
+}
+
 .circle-container {
   position: fixed;
   top: -100px;
@@ -69,22 +74,37 @@ body {
   transform-origin: top left;
 }
 
-.content img {
-  max-width: 100%;
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
 }
 
-p {
-  text-align: justify;
+nav {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  font-size: 12px;
+  z-index: 111;
 }
-blockquote {
-  font-style: italic;
+nav ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
-
-@media screen and (min-width: 760px) {
-  .pictures {
-    display: flex;
-    align-items: center;
-    margin-top: 18px;
-    gap: 20px;
-  }
+nav ul li {
+  text-transform: uppercase;
+  color: white;
+  margin: 15px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+nav ul li i::before {
+  margin-right: 8px;
+}
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
 }
