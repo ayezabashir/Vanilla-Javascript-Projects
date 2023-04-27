@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e0e0e0;
+  color: #222;
+  overflow-x: hidden;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+}
+
+.container {
+  background: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+.circle {
+  background-color: #f17f34a1;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+blockquote {
+  font-style: italic;
+}
+
+@media screen and (min-width: 760px) {
+  .pictures {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    gap: 20px;
+  }
+}
