@@ -1,0 +1,145 @@
+:root {
+    --left-color: rgba(44, 56, 166, 0.5);
+    --right-color: rgba(95, 5, 118, 0.5);
+    --speed: 1000ms;
+    --left-btn-hover-color: rgba(44, 56, 166, 1);
+    --right-btn-hover-color: rgba(95, 5, 118, 1);
+    --hover-width: 80%;
+    --other-width: 20%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .split {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .split.left {
+    left: 0;
+    background: url("ps4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .split.left .btn:hover {
+    background-color: var(--left-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
+  }
+  
+  .split.left::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-color);
+  }
+  
+  .split.right {
+    right: 0;
+    background: url("xbox.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .split.right::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-color);
+  }
+  
+  .split.right .btn:hover {
+    background-color: var(--right-btn-hover-color);
+    border-color: var(--right-btn-hover-color);
+  }
+  
+  h1 {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  .btn {
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-decoration: none;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1.5rem;
+  }
+  
+  .hover-left .left {
+    width: var(--hover-width);
+  }
+  .hover-left .right {
+    width: var(--other-width);
+  }
+  .hover-left .right h1,
+  .hover-left .right .btn {
+    display: none;
+  }
+  
+  .hover-right .left {
+    width: var(--other-width);
+  }
+  .hover-right .right {
+    width: var(--hover-width);
+  }
+  .hover-right .left h1,
+  .hover-right .left .btn {
+    display: none;
+  }
+  
+  .split.left,
+  .split.right,
+  .split.left::before,
+  .split.right::before {
+    transition: all var(--speed) ease-in-out;
+  }
+  
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 2rem;
+      top: 30%;
+    }
+    .btn {
+      width: 12rem;
+      padding: 1.2rem;
+    }
+  }
+  
