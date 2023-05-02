@@ -9,3 +9,4 @@ Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
 Form Wave Animatioin => [Live Demo](https://codepen.io/ayezabashir442/full/ZEqXbeN) <br/>
+Sound Board => [Live Demo](https://soundboard.ayezabashir.repl.co/) <br/>
