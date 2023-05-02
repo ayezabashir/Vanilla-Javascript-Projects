@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #444;
+  }
+  
+  .btn {
+    background-color: #333;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 16px;
+    box-shadow: 4px 4px 4px black;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
