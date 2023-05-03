@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    background: rgba(102, 51, 153, 0.452);
+  }
+  .container {
+    background: rgba(102, 51, 153, 0.584);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(102, 51, 153, 0.452),
+      0 6px 6px rgba(102, 51, 153, 0.452);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 600px;
+  }
+  
+  h2 {
+    font-style: oblique;
+    opacity: 0.9;
+    letter-spacing: 2px;
+  }
+  
+  .joke {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 50px auto;
+    max-width: 550px;
+  }
+  
+  .btn {
+    background: transparent;
+    color: white;
+    border: 0;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.452), 0 6px 6px rgba(0, 0, 0, 0.452);
+    padding: 14px 40px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+  
