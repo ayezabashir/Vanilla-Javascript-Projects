@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Frequently Asked Questions</h1>
+    <div id="faq-container">
+      <div class="faq active">
+        <h3 class="faq-title">Is JavaScript a case-sensitive language?</h3>
+        <p class="faq-text">Yes, JavaScript is a case sensitive language.</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          What is the purpose of ‘This’ operator in JavaScript?
+        </h3>
+        <p class="faq-text">
+          JavaScript this keyword refers to the object it belongs to.In a
+          method, this refers to the owner object and in a function, this refers
+          to the global object
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">What is Callback?</h3>
+        <p class="faq-text">
+          A callback is a plain js function passed to some method as an argument
+          or option. It's a function that is to be executed after another
+          function has finished executing.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">How to create a cookie using JavaScript?</h3>
+        <p class="faq-text">
+          The simplest way to create a cookie is to assign a string value to the
+          document.cookie object, which looks like this- <br />
+          <b>Syntax</b> <br />
+          <code>
+            document.cookie = "key1 = value1; key2 = value2; expires = date";
+          </code>
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+  </body>
+</html>
