@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #f17f34a1;
+    color: #222;
+    letter-spacing: 1.5px;
+    height: 100vh;
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+  }
+  
+  .counter {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 580px) {
+    body {
+      flex-direction: column;
+    }
+  }
+  
