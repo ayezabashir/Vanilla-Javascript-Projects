@@ -12,6 +12,7 @@ Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
+Drink Water => [Live Demo](https://codepen.io/ayezabashir/full/MWPPyaE)<br/>
 FAQ => [Live Demo](https://codepen.io/ayezabashir/full/wvYpqER) <br/>
 Form Wave Animatioin => [Live Demo](https://codepen.io/ayezabashir442/full/ZEqXbeN) <br/>
 Sound Board => [Live Demo](https://soundboard.ayezabashir.repl.co/) <br/>
