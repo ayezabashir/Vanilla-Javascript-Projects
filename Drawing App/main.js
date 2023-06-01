@@ -1,8 +1,38 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
+const brushSize = document.getElementById('size');
+const increase = document.getElementById('increase');
+const decrease = document.getElementById('decrease');
+const getColor = document.getElementById('color');
+const clear = document.getElementById('clear');
 
-let size = 10;
-let color = 'blue';
+increase.addEventListener('click', increaseBrushSize);
+decrease.addEventListener('click', decreaseBrushSize);
+getColor.addEventListener('input', selectColor);
+
+function selectColor() {
+    color = getColor.value;
+}
+
+function increaseBrushSize() {
+    if (brushSize.innerHTML >= 20) {
+        return;
+    } else {
+        brushSize.innerHTML = ++size;
+    }
+}
+function decreaseBrushSize() {
+    if (brushSize.innerHTML <= 1) {
+        brushSize.innerHTML = 1;
+        size = 1;
+    } else {
+        brushSize.innerHTML = --size;
+    }
+}
+
+
+let size = brushSize.innerText;
+let color = getColor.value;
 let x;
 let y;
 let isPressed = false;
@@ -12,8 +42,6 @@ canvas.addEventListener('mousedown', (e) => {
 
     x = e.offsetX;
     y = e.offsetY;
-
-    console.log(isPressed, x, y);
 })
 
 canvas.addEventListener('mousemove', (e) => {
@@ -26,17 +54,14 @@ canvas.addEventListener('mousemove', (e) => {
 
         x = x2;
         y = y2;
-
     }
 })
 
-canvas.addEventListener('mouseup', (e) => {
+canvas.addEventListener('mouseup', () => {
     isPressed = false;
 
     x = undefined;
     y = undefined;
-    console.log(isPressed, x, y);
-
 })
 function drawCircle(x, y) {
     ctx.beginPath();
@@ -46,10 +71,14 @@ function drawCircle(x, y) {
 }
 
 function drawLine(x1, y1, x2, y2) {
-    ctx.beginPath;
+    ctx.beginPath();
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
     ctx.strokeStyle = color;
     ctx.lineWidth = size * 2;
     ctx.stroke();
 }
+
+clear.addEventListener('click', () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+})
