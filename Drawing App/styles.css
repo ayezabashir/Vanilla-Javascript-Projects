@@ -1,44 +1,45 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    background: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  canvas {
-    border: 2px solid rgb(169, 169, 169);
-  }
-  
-  .toolbox {
-    background: rgba(4, 129, 1, 0.908);
-    display: flex;
-    width: 800px;
-    padding: 1rem;
-  }
-  
-  .toolbox > * {
-    background-color: #fff;
-    border: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    height: 50px;
-    width: 50px;
-    margin: 0.15rem;
-    padding: 0.25rem;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  .toolbox > *:last-child {
-    margin-left: auto;
-    width: 100px;
-    color: red;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  border: 2px solid rgb(169, 169, 169);
+}
+
+.toolbox {
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: #f7dbdb;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  height: 30px;
+  width: 30px;
+  margin: 0.15rem;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.toolbox > *:last-child {
+  width: 100px;
+  color: red;
+}
