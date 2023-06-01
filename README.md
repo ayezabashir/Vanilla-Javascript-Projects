@@ -1,6 +1,7 @@
 # JS-Mini-Projects
 This repository contains mini web projects that I made using HTML, CSS and Pure/Vanilla Javascript.
 
+Animated Loading Screen => [Live Demo](https://codepen.io/ayezabashir/full/MWPNgdx)<br/>
 Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
 Dad Jokes => [Live Demo](https://codepen.io/ayezabashir442/full/qBJVmWo) <br/>
 Event KeyCode => [Live Demo](https://codepen.io/ayezabashir/full/GRYyvZM) <br/>
