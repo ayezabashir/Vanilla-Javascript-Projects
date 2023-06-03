@@ -1,5 +1,5 @@
 # JS-Mini-Projects
-This repository contains mini web projects that I made using HTML, CSS and Pure/Vanilla Javascript.
+This repository contains mini web projects that I made using HTML, CSS and Vanilla Javascript.
 
 Animated Loading Screen => [Live Demo](https://codepen.io/ayezabashir/full/MWPNgdx)<br/>
 Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
@@ -14,6 +14,7 @@ Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/
 Expanding Cards => [Live Demo](https://codepen.io/ayezabashir442/full/eYPpKrX) <br/>
 Background Slider => [Live Demo](https://backgroundslider--ayezabashir.repl.co/) <br/>
 Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br/>
+Toaster => [Live Demo](https://codepen.io/ayezabashir/full/ZEqgNKo)<br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
