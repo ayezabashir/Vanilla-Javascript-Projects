@@ -15,6 +15,7 @@ Expanding Cards => [Live Demo](https://codepen.io/ayezabashir442/full/eYPpKrX) <
 Background Slider => [Live Demo](https://backgroundslider--ayezabashir.repl.co/) <br/>
 Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br/>
 Toaster => [Live Demo](https://codepen.io/ayezabashir/full/ZEqgNKo)<br/>
+Text Effect => [Live Demo](https://codepen.io/ayezabashir/full/YzRKjmE) <br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
