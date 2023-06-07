@@ -97,6 +97,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    overflow: visible;
+  }
   .card {
     flex-direction: column;
     align-items: center;
