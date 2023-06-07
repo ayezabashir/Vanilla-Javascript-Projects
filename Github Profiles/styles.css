@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .user-form,
+  #main {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .user-form input {
+    box-shadow: 1px 0px 15px 6px rgba(46, 46, 46, 0.784);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: block;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 25px;
+  }
+  .user-form input:focus {
+    outline: none;
+  }
+  .user-form input::placeholder {
+    color: #bbb;
+  }
+  
+  .card {
+    width: 100%;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background: #333;
+    padding: 1.4rem 1rem;
+    display: flex;
+    box-shadow: 1px 0px 15px 6px rgba(46, 46, 46, 0.784);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    border: 5px solid #bbb;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .user-info {
+    color: #eee;
+    margin-left: 2rem;
+  }
+  
+  .user-info h2 {
+    margin-top: 0;
+  }
+  
+  .user-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+  }
+  
+  .user-info ul li {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .user-info ul li strong {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .repo {
+    display: inline-block;
+    color: #fff;
+    background: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
