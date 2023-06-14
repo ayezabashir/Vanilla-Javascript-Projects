@@ -18,6 +18,7 @@ Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
 Nav Animation => [Live Demo](https://codepen.io/ayezabashir/full/bGmLrwL) <br/>
+Notes App => [Live Demo](https://codepen.io/ayezabashir/full/ExOPyxX)<br/>
 Password Generator => [Live Demo](https://codepen.io/ayezabashir/full/BaGNxzm)<br/>
 Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/>
 Random Choice Picker => [Live Demo](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
