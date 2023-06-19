@@ -29,3 +29,4 @@ Sticky NavBar => [Live Demo](https://codepen.io/ayezabashir/full/BaqXYyz) <br/>
 Sound Board => [Live Demo](https://soundboard.ayezabashir.repl.co/) <br/>
 Toaster => [Live Demo](https://codepen.io/ayezabashir/full/ZEqgNKo)<br/>
 Text Effect => [Live Demo](https://codepen.io/ayezabashir/full/YzRKjmE) <br/>
+Vertical Slider => [Live Demo](https://codepen.io/ayezabashir/full/KKrMawL) <br/>
