@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+h1 {
+  font-size: 40px;
+}
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.left-side > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  background-color: #fef2f2;
+}
+
+.left-side-btn {
+  margin-top: 10px;
+}
+
+.left-side-btn button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.right-side {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 60%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right-side > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  width: 100%;
+}
+
+.slider-container .action-buttons button {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  z-index: 111;
+  background: white;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+.slider-container .action-buttons button:hover {
+  color: #222;
+}
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+}
+.slider-container .action-buttons .up-button {
+  transform: translateY(-100%);
+}
