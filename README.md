@@ -15,6 +15,7 @@ FAQ => [Live Demo](https://codepen.io/ayezabashir/full/wvYpqER) <br/>
 Form Wave Animatioin => [Live Demo](https://codepen.io/ayezabashir442/full/ZEqXbeN) <br/>
 Github Profiles => [Live Demo](https://codepen.io/ayezabashir/pen/Poxovaq)<br/>
 Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj) <br/>
+Image Carousel => [Live Demo](https://codepen.io/ayezabashir/full/qBQNwXM) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
 Nav Animation => [Live Demo](https://codepen.io/ayezabashir/full/bGmLrwL) <br/>
