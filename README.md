@@ -21,6 +21,7 @@ Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
 Navigation Animation => [Live Demo](https://codepen.io/ayezabashir/full/bGmLrwL) <br/>
 Notes App => [Live Demo](https://codepen.io/ayezabashir/full/ExOPyxX)<br/>
 Password Generator => [Live Demo](https://codepen.io/ayezabashir/full/BaGNxzm)<br/>
+Pokedex => [Live Demo](https://codepen.io/ayezabashir/full/JjeWdLa)<br/>
 Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/>
 Random Choice Picker => [Live Demo](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
