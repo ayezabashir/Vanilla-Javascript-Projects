@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #efefbb;
-  background: linear-gradient(to right, #85ca5b, #e48817);
+  background: #d5e7cd;
+  background: linear-gradient(to right, #d5e7cd, #e9d3b9);
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@ body {
 }
 h1 {
   letter-spacing: 3px;
-  color: #e3e3ff;
 }
 
 .poke-container {
