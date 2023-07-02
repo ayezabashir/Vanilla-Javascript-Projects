@@ -19,6 +19,7 @@ Image Carousel => [Live Demo](https://codepen.io/ayezabashir/full/qBQNwXM) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Movie Info => [Live Demo](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
 Navigation Animation => [Live Demo](https://codepen.io/ayezabashir/full/bGmLrwL) <br/>
+Netflix Nav Menu => [Live Demo](https://codepen.io/ayezabashir/full/OJagPxO)<br/>
 Notes App => [Live Demo](https://codepen.io/ayezabashir/full/ExOPyxX)<br/>
 Password Generator => [Live Demo](https://codepen.io/ayezabashir/full/BaGNxzm)<br/>
 Pokedex => [Live Demo](https://codepen.io/ayezabashir/full/JjeWdLa)<br/>
