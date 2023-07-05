@@ -28,10 +28,16 @@
   }
   
   .header {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #3e57db;
+    color: #fff;
+    padding: 30px 20px;
+  }
+
+  .header input{
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
     border: 0;
     border-radius: 50px;
-    color: #fff;
     font-size: 14px;
     padding: 10px 15px;
     width: 100%;
