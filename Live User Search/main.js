@@ -1,9 +1,14 @@
 const filter = document.getElementById('filter');
 const result = document.getElementById('result');
 let listItems= [];
+
 getUsers()
+filter.addEventListener('input', (e)=>{
+    filterData(e.target.value);
+})
+
 async function getUsers(){
-    const res = await fetch('https://randomuser.me/api?results=20');
+    const res = await fetch('https://randomuser.me/api?results=50');
     const {results} = await res.json();
     // console.log(data);
     result.innerHTML ='';
@@ -23,4 +28,14 @@ async function getUsers(){
         result.appendChild(listEl);
 
     });
+}
+
+function filterData(search){
+    listItems.forEach(item=>{
+        if(item.innerText.toLowerCase().includes(search.toLowerCase())){
+            item.classList.remove('hide');
+        }else{
+            item.classList.add('hide');
+        }
+    })
 }
