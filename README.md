@@ -25,6 +25,7 @@ Notes App => [Live Demo](https://codepen.io/ayezabashir/full/ExOPyxX)<br/>
 Password Generator => [Live Demo](https://codepen.io/ayezabashir/full/BaGNxzm)<br/>
 Pokedex => [Live Demo](https://codepen.io/ayezabashir/full/JjeWdLa)<br/>
 Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/>
+Quiz App => [Live Demo](https://codepen.io/ayezabashir/full/LYXzVOb)<br/>
 Random Choice Picker => [Live Demo](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
 Split Landing Page => [Live Demo](https://split-landing-page.ayezabashir.repl.co/)<br/>
