@@ -11,6 +11,7 @@ Drag & Drop => [Live Demo](https://codepen.io/ayezabashir/full/jOeoXmm)<br/>
 Event Keycode => [Live Demo](https://codepen.io/ayezabashir/full/GRYyvZM)<br/>
 Expanding Cards => [Live Demo](https://codepen.io/ayezabashir442/full/eYPpKrX)<br/>
 FAQ => [Live Demo](https://codepen.io/ayezabashir/full/wvYpqER)<br/>
+Feedback UI => [Live Demo](https://codepen.io/ayezabashir/full/vYQWXZq)<br/>
 Form Wave Animation => [Live Demo](https://codepen.io/ayezabashir442/full/ZEqXbeN)<br/>
 GitHub Profiles => [Live Demo](https://codepen.io/ayezabashir/pen/Poxovaq)<br/>
 Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj)<br/>
