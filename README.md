@@ -1,5 +1,6 @@
 # JS-Mini-Projects
-Account Verification => [Live Demo](https://codepen.io/ayezabashir/full/oNQBNVZ)<br/>
+Account Verification => <a href="https://codepen.io/ayezabashir/full/oNQBNVZ" target="_blank">Live Demo</a>
+<br/>
 Animated Loading Screen => [Live Demo](https://codepen.io/ayezabashir/full/MWPNgdx)<br/>
 Background Slider => [Live Demo](https://backgroundslider--ayezabashir.repl.co/) <br/>
 Blurry Loading => [Live Demo](https://codepen.io/ayezabashir442/full/rNqzBNK) <br/>
