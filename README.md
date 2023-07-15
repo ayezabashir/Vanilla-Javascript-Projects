@@ -30,6 +30,7 @@ Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/
 Quiz App => [Live Demo](https://codepen.io/ayezabashir/full/LYXzVOb)<br/>
 Random Choice Picker => [Live Demo](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
+Scientific Calculator => [Live Demo](https://codepen.io/ayezabashir/pen/GRYJKOO)<br/>
 Split Landing Page => [Live Demo](https://split-landing-page.ayezabashir.repl.co/)<br/>
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
 Sticky Navbar => [Live Demo](https://codepen.io/ayezabashir/full/BaqXYyz) <br/>
