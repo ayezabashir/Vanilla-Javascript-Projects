@@ -36,6 +36,7 @@ Split Landing Page => [Live Demo](https://split-landing-page.ayezabashir.repl.co
 Scrolling Animation => [Live Demo](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
 Sticky Navbar => [Live Demo](https://codepen.io/ayezabashir/full/BaqXYyz) <br/>
 Sound Board => [Live Demo](https://soundboard.ayezabashir.repl.co/) <br/>
+Testimonials => [Live Demo](https://codepen.io/ayezabashir/full/VwVORdw) <br/>
 To Do List => [Live Demo](https://codepen.io/ayezabashir/full/abROoLv) <br/>
 Toaster => [Live Demo](https://codepen.io/ayezabashir/full/ZEqgNKo)<br/>
 Text Effect => [Live Demo](https://codepen.io/ayezabashir/full/YzRKjmE) <br/>
