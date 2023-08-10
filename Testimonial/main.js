@@ -1,6 +1,7 @@
 const testContainer = document.querySelector('.testimonial-container');
 const testimonial = document.querySelector('.testimonial');
 const userimage = document.querySelector('.user-image');
+const username = document.querySelector('.username');
 const role = document.querySelector('.role');
 
 const testimonials = [
@@ -24,8 +25,32 @@ const testimonials = [
     },
     {
         name: 'Robert Junior',
-        position: 'Frontend developer',
-        photo: '',
+        position: 'Administrator',
+        photo: 'https://avatars.githubusercontent.com/u/125119261?v=4',
+        text: 'Ut sollicitudin, mauris in mattis blandit, ex ex finibus nisl, eget rhoncus arcu massa nec erat. Aenean ac nunc laoreet, posuere lorem quis, efficitur arcu. Morbi fringilla maximus felis. Donec a tellus ultricies, molestie urna at, porttitor velit. Maecenas convallis varius sapien at bibendum. Sed lacinia leo vehicula ante pulvinar, et facilisis ligula pulvinar.'
+    },
+    {
+        name: 'Shawn Hardy',
+        position: 'Marketing',
+        photo: 'https://avatars.githubusercontent.com/u/138015685?s=100&v=4',
         text: 'Ut sollicitudin, mauris in mattis blandit, ex ex finibus nisl, eget rhoncus arcu massa nec erat. Aenean ac nunc laoreet, posuere lorem quis, efficitur arcu. Morbi fringilla maximus felis. Donec a tellus ultricies, molestie urna at, porttitor velit. Maecenas convallis varius sapien at bibendum. Sed lacinia leo vehicula ante pulvinar, et facilisis ligula pulvinar.'
     },
 ]
+
+let idx = 1;
+function updateTestimonial() {
+    const { name, position, photo, text } = testimonials[idx];
+    testimonial.innerText = text;
+    userimage.src = photo;
+    username.innerText = name;
+    role.innerText = position;
+
+    idx++;
+    if (idx > testimonials.length - 1) {
+        idx = 0;
+    }
+}
+
+setInterval(() => {
+    updateTestimonial();
+}, 10000);
