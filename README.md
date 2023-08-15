@@ -6,6 +6,7 @@ Background Slider => [Live Demo](https://backgroundslider--ayezabashir.repl.co/)
 Blurry Loading => [Live Demo](https://codepen.io/ayezabashir442/full/rNqzBNK) <br/>
 Clock => [Live Demo](https://codepen.io/ayezabashir/full/qBJGRVx)<br/>
 Dad Jokes => [Live Demo](https://codepen.io/ayezabashir442/full/qBJVmWo) <br/>
+Dictionary => [Live Demo](https://codepen.io/ayezabashir/full/RwEbPZL) <br/>
 Drink Water => [Live Demo](https://codepen.io/ayezabashir/full/MWPPyaE)<br/>
 Drawing App => [Live Demo](https://codepen.io/ayezabashir/full/MWPNYjJ)<br/>
 Drag & Drop => [Live Demo](https://codepen.io/ayezabashir/full/jOeoXmm)<br/>
