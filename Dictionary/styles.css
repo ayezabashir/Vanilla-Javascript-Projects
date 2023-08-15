@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #474b4e;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 0;
+    background: var(--primary-color);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  
+  .container {
+    background: #fff;
+    width: 90vmin;
+    height: auto;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    .search {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      #search-word {
+        font-size: 16px;
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid var(--primary-color);
+        outline: none;
+        display: inline-block;
+        width: 75%;
+      }
+      #search-btn {
+        font-size: 16px;
+        padding: 10px 18px;
+        background: var(--primary-color);
+        color: #fff;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+          transform: scale(1.0575);
+        }
+      }
+    }
+    .search-result {
+      margin-top: 1rem;
+      .word {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .icon {
+          background: transparent;
+          color: var(--primary-color);
+          outline: none;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+      .details {
+        display: flex;
+        gap: 10px;
+        color: var(--primary-color);
+      }
+      .meaning {
+        text-align: justify;
+        color: var(--primary-color);
+      }
+      .sentence,
+      .origin {
+        margin-top: 1rem;
+        color: var(--primary-color);
+        border-left: 5px solid var(--primary-color);
+        padding-left: 10px;
+      }
+    }
+  }
+  .error {
+    margin-top: 1rem;
+    text-align: center;
+    color: red;
+  }
