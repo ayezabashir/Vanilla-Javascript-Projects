@@ -29,6 +29,7 @@ Password Generator => [Live Demo](https://codepen.io/ayezabashir/full/BaGNxzm)<b
 Pokedex => [Live Demo](https://codepen.io/ayezabashir/full/JjeWdLa)<br/>
 Progress Bar => [Live Demo](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/>
 Quiz App => [Live Demo](https://codepen.io/ayezabashir/full/LYXzVOb)<br/>
+Quote Generator => [Live Demo](https://codepen.io/ayezabashir/pen/ZEVEGwz) <br/>
 Random Choice Picker => [Live Demo](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
 Random Image Feed => [Live Demo](https://codepen.io/ayezabashir/full/BaGGWEp)<br/>
 Rotating Navigation => [Live Demo](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
