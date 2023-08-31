@@ -1,42 +1,60 @@
-const api_url = 'https://api.datamuse.com/words?ml=';
-const input = document.getElementById('word');
-const form = document.querySelector('.form');
-const wrapper = document.querySelector('.wrapper');
+const Api_URL = 'https://api.datamuse.com/words?rel_syn='
+const wordSearchForm = document.getElementById('word-search-form');
+const copybtn = document.getElementById('copy-btn');
+const wordAppBody = document.querySelector('.word-app-body');
+const wordListContainer = document.getElementById('word-list');
+const loadingSpinner = document.getElementById('spinner');
 
-form.addEventListener('submit', searchSynonym);
+let wordNotFound = true;
 
-async function searchSynonym(e) {
-    e.preventDefault();
-    let searchWord = input.value;
-    let resp = await fetch(api_url + searchWord);
-    let result = await resp.json();
-    wrapper.innerHTML = `
-        <div class="result-container">
-          <span id="synonym">${result[0].word}</span>
-          <span id="synonym">${result[1].word}</span>
-          <span id="synonym">${result[2].word}</span>
-          <span id="synonym">${result[3].word}</span>
-          <span id="synonym">${result[4].word}</span>
-          <span id="synonym">${result[5].word}</span>
-          <span id="synonym">${result[6].word}</span>
-          <span id="synonym">${result[7].word}</span>
-          <span id="synonym">${result[8].word}</span>
-          <span id="synonym">${result[9].word}</span>
-          <span id="synonym">${result[10].word}</span>
-          <span id="synonym">${result[11].word}</span>
-          <span id="synonym">${result[12].word}</span>
-          <span id="synonym">${result[13].word}</span>
-          <span id="synonym">${result[14].word}</span>
-          <span id="synonym">${result[15].word}</span>
-          <span id="synonym">${result[16].word}</span>
-          <span id="synonym">${result[17].word}</span>
-          <span id="synonym">${result[18].word}</span>
-        </div>
-        <button id="copy" onclick="copyWords()">Copy Synonyms</button>
-    `
+const getInputWord = () => {
+    wordAppBody.style.display = 'none';
+    wordSearchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        let searchWord = wordSearchForm.search_word.value;
+        fetchSynonyms(searchWord);
+    })
 }
 
-function copyWords() {
-    let word = wrapper.innerText;
-    navigator.clipboard.writeText(word);
+getInputWord();
+const fetchSynonyms = async (searchWord) => {
+    let url = Api_URL + searchWord;
+    try {
+        loadingSpinner.style.display = 'flex';
+        let resp = await fetch(url);
+        let data = await resp.json();
+        loadingSpinner.style.display = 'none';
+        renderWords(data);
+    } catch (err) {
+        console.log(err);
+    }
 }
+
+const renderWords = (wordsArr) => {
+    let htmlCode;
+    if (wordsArr.length > 0) {
+        wordNotFound = false;
+        htmlCode = wordsArr.map(word => {
+            return `<span class="word-item">${word.word}</span>`
+        });
+        wordListContainer.innerHTML = htmlCode.join(" ")
+    } else {
+        wordNotFound = true;
+        htmlCode = "No Search result found";
+        wordListContainer.innerHTML = htmlCode;
+    }
+    wordAppBody.style.display = 'block';
+}
+
+const copyWord = () => {
+    if (!wordNotFound) {
+        let words = (wordListContainer.textContent).split(" ");
+        let filterWords = words.filter(word => word.length !== 0);
+        let wordToCopy = filterWords.join(", ");
+        navigator.clipboard.writeText(wordToCopy);
+    } else {
+        console.log("nothing to copy")
+    }
+}
+
+copybtn.addEventListener('click', copyWord);
