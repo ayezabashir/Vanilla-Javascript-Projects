@@ -1,73 +1,108 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #ebe7e7;
+  font-size: 1.6rem;
+  color: rgb(142, 73, 96);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: rgb(142, 73, 96);
+  text-align: center;
+}
+
+button {
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 0;
+  background: pink;
+  color: rgb(142, 73, 96);
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.word-app-searchbox {
+  margin-top: 3rem;
+}
+.word-app-searchbox-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-element {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 #999;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+}
+
+.word-item {
+  font-weight: 500;
+  margin: 5px;
+  font-size: 1.7rem;
+  opacity: 0.9;
+  display: inline-block;
+  background: #fff;
+  padding: 10px 20px;
+  color: rgb(142, 73, 96);
+  box-shadow: 0 1px 5px 0 rgb(142, 73, 96);
+  border-radius: 5px;
+}
+
+.form-input {
+  font-size: 1.6rem;
+  color: rgb(142, 73, 96);
+  outline: none;
+  border: 0;
+  width: 100%;
+}
+
+/* .word-app-body{
+  display: none;
+} */
+
+.word-app-body-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#word-list {
+  background: pink;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+#copy-btn {
+  margin-top: 2rem;
+}
+
+#spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .form-input {
+    min-width: 480px;
   }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    background: #ebe7e7;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container {
-    background: transparent;
-    padding: 20px 40px;
-    width: 678px;
-  }
-  
-  h1 {
-    color: rgb(142, 73, 96);
-    text-align: center;
-  }
-  
-  .form {
-    display: flex;
-    background: #fff;
-    width: 100%;
-    margin: 10px auto;
-    padding: 8px 20px;
-    border-radius: 5px;
-  }
-  
-  input {
-    outline: none;
-    border: 0;
-    width: 100%;
-  }
-  
-  button {
-    font-weight: 600;
-    padding: 10px 15px;
-    border: 0;
-    background: pink;
-    color: rgb(142, 73, 96);
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  
-  .result-container {
-    margin: 20px 0;
-    background: pink;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 10px;
-  }
-  
-  span {
-    background: #fff;
-    padding: 10px 20px;
-    color: rgb(142, 73, 96);
-    border: 2px solid;
-    border-radius: 5px;
-  }
-  
+}
