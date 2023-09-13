@@ -18,6 +18,7 @@ Form Wave Animation => [Live Demo](https://codepen.io/ayezabashir442/full/ZEqXbe
 GitHub Profiles => [Live Demo](https://codepen.io/ayezabashir/pen/Poxovaq)<br/>
 Hidden Search => [Live Demo](https://codepen.io/ayezabashir442/full/jOewrBj)<br/>
 Hover Board => [Live Demo](https://codepen.io/ayezabashir/full/zYMNYwg)<br/>
+Image Search Gallery => [Live Demo](https://codepen.io/ayezabashir/full/gOZRozq)<br/>
 Image Carousel => [Live Demo](https://codepen.io/ayezabashir/full/qBQNwXM) <br/>
 Increment Counter => [Live Demo](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 Live User Filter => [Live Demo](https://codepen.io/ayezabashir/full/oNQGgvm).<br/>
