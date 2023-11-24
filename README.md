@@ -4,6 +4,7 @@ Account Verification => <a href="https://codepen.io/ayezabashir/full/oNQBNVZ" ta
 Animated Loading Screen => [Live Demo](https://codepen.io/ayezabashir/full/MWPNgdx)<br/>
 Background Slider => [Live Demo](https://backgroundslider--ayezabashir.repl.co/) <br/>
 Blurry Loading => [Live Demo](https://codepen.io/ayezabashir442/full/rNqzBNK) <br/>
+CSS Scroll => [Live Demo](https://codepen.io/ayezabashir/full/oNmyBxd)<br/>
 Clock => [Live Demo](https://codepen.io/ayezabashir/full/qBJGRVx)<br/>
 Dad Jokes => [Live Demo](https://codepen.io/ayezabashir442/full/qBJVmWo) <br/>
 Dictionary => [Live Demo](https://codepen.io/ayezabashir/full/RwEbPZL) <br/>
