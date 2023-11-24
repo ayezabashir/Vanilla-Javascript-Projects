@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    position: fixed;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    top: 1em;
+  }
+  
+  .container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+  li {
+    border-bottom: 1px solid white;
+    padding: 3rem;
+    font-size: 1.4rem;
+    color: rgba(white, 0.5);
+    background: lightgray;
+    text-align: center;
+    scroll-snap-align: start;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
