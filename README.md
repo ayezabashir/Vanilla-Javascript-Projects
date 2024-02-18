@@ -37,6 +37,7 @@
 [Random Choice Picker](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
 [Random Image Feed](https://codepen.io/ayezabashir/full/BaGGWEp)<br/>
 [Rotating Navigation](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
+[Recipes Generator](https://codepen.io/ayezabashir/full/BabbdXo)<br/>
 [Scientific Calculator](https://codepen.io/ayezabashir/pen/GRYJKOO)<br/>
 [Split Landing Page](https://split-landing-page.ayezabashir.repl.co/)<br/>
 [Scrolling Animation](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
