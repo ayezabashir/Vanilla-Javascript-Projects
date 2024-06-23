@@ -21,6 +21,7 @@
 [Hidden Search](https://codepen.io/ayezabashir442/full/jOewrBj)<br/>
 [Hover Board](https://codepen.io/ayezabashir/full/zYMNYwg)<br/>
 [Image Search Gallery](https://codepen.io/ayezabashir/full/gOZRozq)<br/>
+[Image Slider](https://codepen.io/ayezabashir/pen/oNRdeLb)<br/>
 [Image Carousel](https://codepen.io/ayezabashir/full/qBQNwXM) <br/>
 [Increment Counter](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
 [Live User Filter](https://codepen.io/ayezabashir/full/oNQGgvm).<br/>
