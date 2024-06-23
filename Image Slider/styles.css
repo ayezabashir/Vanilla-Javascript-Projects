@@ -1,0 +1,52 @@
+*::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-slider {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  border: 2px solid black;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.fa-arrow-left {
+  left: -15px;
+}
+.fa-arrow-right {
+  right: -15px;
+}
