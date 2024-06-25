@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .products-container .product {
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .button-container {
+    margin: 20px auto;
+  }
+  
