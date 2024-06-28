@@ -1,4 +1,5 @@
 const dataContainer = document.querySelector('.api-data');
+const progressBar = document.querySelector('.progress-bar');
 
 async function fetchData() {
     const response = await fetch('https://dummyjson.com/products?limit=100')
@@ -13,3 +14,11 @@ async function fetchData() {
 
 fetchData()
 
+function manageScroll() {
+    const scrollProgress = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    progressBar.style.width = `${(scrollProgress / height) * 100}%`
+}
+
+window.addEventListener('scroll', manageScroll)
+window.removeEventListener('scroll', () => { })
