@@ -43,6 +43,7 @@
 [Scientific Calculator](https://codepen.io/ayezabashir/pen/GRYJKOO)<br/>
 [Split Landing Page](https://split-landing-page.ayezabashir.repl.co/)<br/>
 [Scrolling Animation](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
+[Scroll Indicator](https://codepen.io/ayezabashir/pen/jOooVRb)<br/>
 [Sticky Navbar](https://codepen.io/ayezabashir/full/BaqXYyz) <br/>
 [Sound Board](https://soundboard.ayezabashir.repl.co/) <br/>
 [Synonym Search](https://codepen.io/ayezabashir/full/yLGJVKO)<br/>
