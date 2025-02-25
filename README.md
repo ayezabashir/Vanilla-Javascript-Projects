@@ -7,6 +7,7 @@
 [Blurry Loading](https://codepen.io/ayezabashir442/full/rNqzBNK) <br/>
 [CSS Scroll](https://codepen.io/ayezabashir/full/oNmyBxd)<br/>
 [Clock](https://codepen.io/ayezabashir/full/qBJGRVx)<br/>
+[Custom File Upload](https://codepen.io/ayezabashir/pen/PwozvRy)<br/>
 [Dad Jokes](https://codepen.io/ayezabashir442/full/qBJVmWo) <br/>
 [Dictionary](https://codepen.io/ayezabashir/full/RwEbPZL) <br/>
 [Drink Water](https://codepen.io/ayezabashir/full/MWPPyaE)<br/>
