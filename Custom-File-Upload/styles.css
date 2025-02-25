@@ -3,35 +3,38 @@
     max-width: 200px;
     max-height: 200px;
     width: 100%;
-    ooverflow: hidden;
+    overflow: hidden;
     border-radius: 10px;
-  }
-  
-  .upload-file {
+}
+
+.upload-file {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .upload-icon {
+}
+
+.upload-icon {
     border: 2px solid green;
     border-radius: 50%;
     padding: 5px;
-  }
-  .upload-icon {
+}
+
+.upload-icon {
     margin: 5px auto;
-  }
-  #file_input {
+}
+
+#file_input {
     display: none;
-  }
-  .msg {
+}
+
+.msg {
     font-size: 16px;
-  }
-  .show-img {
+}
+
+.show-img {
     width: 200px;
     height: 200px;
     background-size: cover;
     border-radius: 5px;
-  }
-  
+}
