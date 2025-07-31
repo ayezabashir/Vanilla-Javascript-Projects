@@ -4,15 +4,16 @@ A collection of beginner to intermediate-level JavaScript mini projects focused 
 
 ---
 
-## 🔐 Form & UI Interactions
+## 📚 APIs & Data
 
-- [Account Verification](https://codepen.io/ayezabashir/full/oNQBNVZ)  
-- [Custom File Upload](https://codepen.io/ayezabashir/pen/PwozvRy)  
-- [Form Wave Animation](https://codepen.io/ayezabashir442/full/ZEqXbeN)  
-- [Feedback UI](https://codepen.io/ayezabashir/full/vYQWXZq)  
-- [FAQ Toggle](https://codepen.io/ayezabashir/full/wvYpqER)  
-- [To Do List](https://codepen.io/ayezabashir/full/abROoLv)  
-- [Notes App](https://codepen.io/ayezabashir/full/ExOPyxX)  
+- [Dictionary](https://codepen.io/ayezabashir/full/RwEbPZL)  
+- [Synonym Search](https://codepen.io/ayezabashir/full/yLGJVKO)  
+- [Image Search Gallery](https://codepen.io/ayezabashir/full/gOZRozq)  
+- [GitHub Profiles](https://codepen.io/ayezabashir/pen/Poxovaq)  
+- [Number Trivia](https://codepen.io/ayezabashir/full/ZEVGNPM)  
+- [Movie Info](https://codepen.io/ayezabashir/full/poxxGoR)  
+- [Recipes Generator](https://codepen.io/ayezabashir/full/BabbdXo)
+- [Pokedex](https://codepen.io/ayezabashir/full/JjeWdLa)  
 
 ---
 
@@ -49,19 +50,6 @@ A collection of beginner to intermediate-level JavaScript mini projects focused 
 
 ---
 
-## 📚 APIs & Data
-
-- [Dictionary](https://codepen.io/ayezabashir/full/RwEbPZL)  
-- [Synonym Search](https://codepen.io/ayezabashir/full/yLGJVKO)  
-- [Image Search Gallery](https://codepen.io/ayezabashir/full/gOZRozq)  
-- [GitHub Profiles](https://codepen.io/ayezabashir/pen/Poxovaq)  
-- [Number Trivia](https://codepen.io/ayezabashir/full/ZEVGNPM)  
-- [Movie Info](https://codepen.io/ayezabashir/full/poxxGoR)  
-- [Recipes Generator](https://codepen.io/ayezabashir/full/BabbdXo)
-- [Pokedex](https://codepen.io/ayezabashir/full/JjeWdLa)  
-
----
-
 ## 📊 Utilities & Tools
 
 - [Password Generator](https://codepen.io/ayezabashir/full/BaGNxzm)  
@@ -93,15 +81,17 @@ A collection of beginner to intermediate-level JavaScript mini projects focused 
 
 ---
 
-## ❓ Quiz & Puzzles
+## 🔐 Form & UI Interactions
 
-- [Quiz App](https://codepen.io/ayezabashir/full/LYXzVOb)  
-
----
-
-## ⏰ Clock & Time Based
-
+- [Account Verification](https://codepen.io/ayezabashir/full/oNQBNVZ)  
+- [Custom File Upload](https://codepen.io/ayezabashir/pen/PwozvRy)  
+- [Form Wave Animation](https://codepen.io/ayezabashir442/full/ZEqXbeN)  
+- [Feedback UI](https://codepen.io/ayezabashir/full/vYQWXZq)  
+- [FAQ Toggle](https://codepen.io/ayezabashir/full/wvYpqER)  
+- [To Do List](https://codepen.io/ayezabashir/full/abROoLv)  
+- [Notes App](https://codepen.io/ayezabashir/full/ExOPyxX)  
 - [Clock](https://codepen.io/ayezabashir/full/qBJGRVx)
+- [Quiz App](https://codepen.io/ayezabashir/full/LYXzVOb)  
 
 ---
 
