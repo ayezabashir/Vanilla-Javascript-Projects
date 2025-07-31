@@ -1,56 +1,109 @@
-### JS-Mini-Projects
+# ⚡ JS Mini Projects
 
-<a href="https://codepen.io/ayezabashir/full/oNQBNVZ" target="_blank">Account Verification</a>
-<br/>
-[Animated Loading Screen](https://codepen.io/ayezabashir/full/MWPNgdx)<br/>
-[Background Slider](https://backgroundslider--ayezabashir.repl.co/) <br/>
-[Blurry Loading](https://codepen.io/ayezabashir442/full/rNqzBNK) <br/>
-[CSS Scroll](https://codepen.io/ayezabashir/full/oNmyBxd)<br/>
-[Clock](https://codepen.io/ayezabashir/full/qBJGRVx)<br/>
-[Custom File Upload](https://codepen.io/ayezabashir/pen/PwozvRy)<br/>
-[Dad Jokes](https://codepen.io/ayezabashir442/full/qBJVmWo) <br/>
-[Dictionary](https://codepen.io/ayezabashir/full/RwEbPZL) <br/>
-[Drink Water](https://codepen.io/ayezabashir/full/MWPPyaE)<br/>
-[Drawing App](https://codepen.io/ayezabashir/full/MWPNYjJ)<br/>
-[Drag & Drop](https://codepen.io/ayezabashir/full/jOeoXmm)<br/>
-[Event Keycode](https://codepen.io/ayezabashir/full/GRYyvZM)<br/>
-[Expanding Cards](https://codepen.io/ayezabashir442/full/eYPpKrX)<br/>
-[FAQ](https://codepen.io/ayezabashir/full/wvYpqER)<br/>
-[Feedback UI](https://codepen.io/ayezabashir/full/vYQWXZq)<br/>
-[Form Wave Animation](https://codepen.io/ayezabashir442/full/ZEqXbeN)<br/>
-[GitHub Profiles](https://codepen.io/ayezabashir/pen/Poxovaq)<br/>
-[Glassmorphism Effect](https://codepen.io/ayezabashir/pen/MWMXgvr)<br/>
-[Hidden Search](https://codepen.io/ayezabashir442/full/jOewrBj)<br/>
-[Hover Board](https://codepen.io/ayezabashir/full/zYMNYwg)<br/>
-[Image Search Gallery](https://codepen.io/ayezabashir/full/gOZRozq)<br/>
-[Image Slider](https://codepen.io/ayezabashir/pen/oNRdeLb)<br/>
-[Image Carousel](https://codepen.io/ayezabashir/full/qBQNwXM) <br/>
-[Increment Counter](https://codepen.io/ayezabashir/full/MWPQNgB)<br/>
-[Live User Filter](https://codepen.io/ayezabashir/full/oNQGgvm).<br/>
-[Load More Products](https://codepen.io/ayezabashir/pen/mdYKLyV)<br/>
-[Movie Info](https://codepen.io/ayezabashir/full/poxxGoR)<br/>
-[Navigation Animation](https://codepen.io/ayezabashir/full/bGmLrwL) <br/>
-[Netflix Nav Menu](https://codepen.io/ayezabashir/full/OJagPxO)<br/>
-[Notes App](https://codepen.io/ayezabashir/full/ExOPyxX)<br/>
-[Number Trivia](https://codepen.io/ayezabashir/full/ZEVGNPM)<br/>
-[Password Generator](https://codepen.io/ayezabashir/full/BaGNxzm)<br/>
-[Pokedex](https://codepen.io/ayezabashir/full/JjeWdLa)<br/>
-[Progress Bar](https://codepen.io/ayezabashir442/full/eYPJwyO) <br/>
-[Quiz App](https://codepen.io/ayezabashir/full/LYXzVOb)<br/>
-[Quote Generator](https://codepen.io/ayezabashir/pen/ZEVEGwz) <br/>
-[Random Choice Picker](https://codepen.io/ayezabashir/full/QWZQbBy) <br/>
-[Random Image Feed](https://codepen.io/ayezabashir/full/BaGGWEp)<br/>
-[Rotating Navigation](https://codepen.io/ayezabashir442/full/NWOgNXY) <br/>
-[Recipes Generator](https://codepen.io/ayezabashir/full/BabbdXo)<br/>
-[Scientific Calculator](https://codepen.io/ayezabashir/pen/GRYJKOO)<br/>
-[Split Landing Page](https://split-landing-page.ayezabashir.repl.co/)<br/>
-[Scrolling Animation](https://codepen.io/ayezabashir442/full/YzJxpaw) <br/>
-[Scroll Indicator](https://codepen.io/ayezabashir/pen/jOooVRb)<br/>
-[Sticky Navbar](https://codepen.io/ayezabashir/full/BaqXYyz) <br/>
-[Sound Board](https://soundboard.ayezabashir.repl.co/) <br/>
-[Synonym Search](https://codepen.io/ayezabashir/full/yLGJVKO)<br/>
-[Testimonials](https://codepen.io/ayezabashir/full/VwVORdw) <br/>
-[To Do List](https://codepen.io/ayezabashir/full/abROoLv) <br/>
-[Toaster](https://codepen.io/ayezabashir/full/ZEqgNKo)<br/>
-[Text Effect](https://codepen.io/ayezabashir/full/YzRKjmE) <br/>
-[Vertical Slider](https://codepen.io/ayezabashir/full/KKrMawL) <br/>
+A collection of beginner to intermediate-level JavaScript mini projects focused on mastering DOM manipulation, event handling, APIs, and animations.
+
+---
+
+## 🔐 Form & UI Interactions
+
+- [Account Verification](https://codepen.io/ayezabashir/full/oNQBNVZ)  
+- [Custom File Upload](https://codepen.io/ayezabashir/pen/PwozvRy)  
+- [Form Wave Animation](https://codepen.io/ayezabashir442/full/ZEqXbeN)  
+- [Feedback UI](https://codepen.io/ayezabashir/full/vYQWXZq)  
+- [FAQ Toggle](https://codepen.io/ayezabashir/full/wvYpqER)  
+- [To Do List](https://codepen.io/ayezabashir/full/abROoLv)  
+- [Notes App](https://codepen.io/ayezabashir/full/ExOPyxX)  
+
+---
+
+## ⏱️ Animations & Effects
+
+- [Animated Loading Screen](https://codepen.io/ayezabashir/full/MWPNgdx)  
+- [Blurry Loading](https://codepen.io/ayezabashir442/full/rNqzBNK)  
+- [Scroll Indicator](https://codepen.io/ayezabashir/pen/jOooVRb)  
+- [Scrolling Animation](https://codepen.io/ayezabashir442/full/YzJxpaw)  
+- [CSS Scroll](https://codepen.io/ayezabashir/full/oNmyBxd)  
+- [Text Effect](https://codepen.io/ayezabashir/full/YzRKjmE)  
+- [Glassmorphism Effect](https://codepen.io/ayezabashir/pen/MWMXgvr)  
+
+---
+
+## 🎨 UI Components
+
+- [Expanding Cards](https://codepen.io/ayezabashir442/full/eYPpKrX)  
+- [Navigation Animation](https://codepen.io/ayezabashir/full/bGmLrwL)  
+- [Netflix Nav Menu](https://codepen.io/ayezabashir/full/OJagPxO)  
+- [Sticky Navbar](https://codepen.io/ayezabashir/full/BaqXYyz)  
+- [Hidden Search](https://codepen.io/ayezabashir442/full/jOewrBj)  
+- [Toaster](https://codepen.io/ayezabashir/full/ZEqgNKo)  
+
+---
+
+## 🎲 Fun & Games
+
+- [Dad Jokes Generator](https://codepen.io/ayezabashir442/full/qBJVmWo)  
+- [Quote Generator](https://codepen.io/ayezabashir/pen/ZEVEGwz)  
+- [Random Choice Picker](https://codepen.io/ayezabashir/full/QWZQbBy)  
+- [Sound Board](https://soundboard.ayezabashir.repl.co/)  
+- [Hover Board](https://codepen.io/ayezabashir/full/zYMNYwg)  
+
+---
+
+## 📚 APIs & Data
+
+- [Dictionary](https://codepen.io/ayezabashir/full/RwEbPZL)  
+- [Synonym Search](https://codepen.io/ayezabashir/full/yLGJVKO)  
+- [Image Search Gallery](https://codepen.io/ayezabashir/full/gOZRozq)  
+- [GitHub Profiles](https://codepen.io/ayezabashir/pen/Poxovaq)  
+- [Number Trivia](https://codepen.io/ayezabashir/full/ZEVGNPM)  
+- [Movie Info](https://codepen.io/ayezabashir/full/poxxGoR)  
+- [Recipes Generator](https://codepen.io/ayezabashir/full/BabbdXo)
+- [Pokedex](https://codepen.io/ayezabashir/full/JjeWdLa)  
+
+---
+
+## 📊 Utilities & Tools
+
+- [Password Generator](https://codepen.io/ayezabashir/full/BaGNxzm)  
+- [Scientific Calculator](https://codepen.io/ayezabashir/pen/GRYJKOO)  
+- [Increment Counter](https://codepen.io/ayezabashir/full/MWPQNgB)  
+- [Live User Filter](https://codepen.io/ayezabashir/full/oNQGgvm)  
+- [Event Keycode](https://codepen.io/ayezabashir/full/GRYyvZM)  
+
+---
+
+## 🧩 Layout & Design Experiments
+
+- [Split Landing Page](https://split-landing-page.ayezabashir.repl.co/)  
+- [Image Carousel](https://codepen.io/ayezabashir/full/qBQNwXM)  
+- [Image Slider](https://codepen.io/ayezabashir/pen/oNRdeLb)  
+- [Background Slider](https://backgroundslider--ayezabashir.repl.co/)  
+- [Vertical Slider](https://codepen.io/ayezabashir/full/KKrMawL)  
+
+---
+
+## 🛠️ Features & Interactions
+
+- [Drag & Drop](https://codepen.io/ayezabashir/full/jOeoXmm)  
+- [Drawing App](https://codepen.io/ayezabashir/full/MWPNYjJ)  
+- [Drink Water Tracker](https://codepen.io/ayezabashir/full/MWPPyaE)  
+- [Progress Bar](https://codepen.io/ayezabashir442/full/eYPJwyO)  
+- [Load More Products](https://codepen.io/ayezabashir/pen/mdYKLyV)  
+- [Rotating Navigation](https://codepen.io/ayezabashir442/full/NWOgNXY)  
+
+---
+
+## ❓ Quiz & Puzzles
+
+- [Quiz App](https://codepen.io/ayezabashir/full/LYXzVOb)  
+
+---
+
+## ⏰ Clock & Time Based
+
+- [Clock](https://codepen.io/ayezabashir/full/qBJGRVx)
+
+---
+
+🧠 Want to explore the source code? Browse individual projects inside the `/projects` folder or check each CodePen link above.  
+Made with ❤️ by **[Ayeza Bashir](https://github.com/ayezabashir)**
