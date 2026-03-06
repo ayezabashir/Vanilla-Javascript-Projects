@@ -25,7 +25,8 @@ A collection of beginner to intermediate-level JavaScript mini projects focused 
 - [Scrolling Animation](https://codepen.io/ayezabashir442/full/YzJxpaw)  
 - [CSS Scroll](https://codepen.io/ayezabashir/full/oNmyBxd)  
 - [Text Effect](https://codepen.io/ayezabashir/full/YzRKjmE)  
-- [Glassmorphism Effect](https://codepen.io/ayezabashir/pen/MWMXgvr)  
+- [Glassmorphism Effect](https://codepen.io/ayezabashir/pen/MWMXgvr)
+- [WizardZ landing page](https://wizard-z-blue.vercel.app/)
 
 ---
 
