@@ -1,0 +1,497 @@
+*,
+*::after,
+*::backdrop {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::selection {
+    background: #000;
+    color: #B9FF66;
+}
+
+section {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+}
+
+nav h1 i {
+    display: inline-block;
+    transform: rotate(45deg);
+    font-size: 50px;
+}
+
+nav h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .requestBtn {
+    padding: 15px 20px !important;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 600;
+    padding: 25px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.center {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.center-part1,
+.center-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.center-part2 {
+    position: relative;
+}
+
+.center-part1 h1 {
+    font-size: 59px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+.center-part1 {
+    margin-right: 50px;
+}
+
+.center-part2 {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.center-part1 p {
+    line-height: 1.1;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center-part1 button {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.center-part2 img {
+    width: 100%;
+}
+
+.section1bottom {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.section1bottom img {
+    width: 140px;
+}
+
+.section2 {
+    padding: 40px;
+}
+
+.section2 .service,
+.case-study {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+.service h3,
+.case-study h3 {
+    background-color: #B9FF66;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.service p,
+.case-study p {
+    width: 40%;
+    line-height: 1.2;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 10px 0px black;
+    padding: 20px;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2 {
+    height: fit-content;
+    width: 50%;
+}
+
+.elem-part2 img {
+    width: 100%;
+}
+
+
+.elem-part1 h2 {
+    font-size: 30px;
+    font-family: monospace;
+    width: 80%;
+    text-align: start;
+    font-weight: 500;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: #B9FF66;
+}
+
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    gap: 20px;
+}
+
+.elem-part1 h4 i {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.black {
+    background: #000;
+}
+
+.elem.black .elem-part1 h2 {
+    font-size: 30px;
+    font-family: monospace;
+    width: 80%;
+    text-align: start;
+    font-weight: 500;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.elem.black .elem-part1 h4 {
+    color: #fff;
+}
+
+.elem.black .elem-part1 h4 i {
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.elem .elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.elem .elem-part2 img {
+    width: 100%;
+}
+
+.section3 {
+    padding: 20px 40px;
+}
+
+.proposal-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: #f2f2f2;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.proposal-card .proposal-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 50%;
+}
+
+.proposal-left h4 {
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.proposal-left p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.proposal-left button {
+    width: max-content;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section4 {
+    height: 100%;
+    width: 100%;
+}
+
+.case-study-section {
+    margin-top: 50px;
+}
+
+.case-study-section .case-study-card {
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.case-study-card .cs {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.cs-border {
+    border-left: 2px solid #B9FF66;
+    border-right: 2px solid #B9FF66;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.case-study-card .cs span {
+    display: inline-block;
+    color: #B9FF66;
+    font-size: 22px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.cs span i {
+    display: inline-block;
+    color: #B9FF66;
+    font-size: 22px;
+    padding-top: 20px;
+    cursor: pointer;
+    rotate: "45deg";
+}
+
+#menuBtn {
+    display: none
+}
+
+.closeBtn {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .center-part1 h1 {
+        font-size: 46px;
+    }
+
+    .center-part1 {
+        margin-right: 0;
+    }
+
+    .center-part2 {
+        margin-left: 0;
+        height: 400px;
+    }
+
+    .center-part2 img {
+        height: 100%;
+    }
+
+    .center {
+        height: auto;
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+
+    .center-part1,
+    .center-part2 {
+        width: 100%;
+    }
+
+    .center-part2 {
+        position: initial;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #menuBtn {
+        display: block;
+        border: none;
+        background: transparent;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .part2 {
+        display: none;
+    }
+
+    .part2.openMenu {
+        display: flex;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background: #000;
+        color: #fff;
+        height: 100%;
+        justify-content: start;
+        align-items: start;
+        padding: 50px;
+        z-index: 10;
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .closeBtn {
+        display: block;
+        border: none;
+        background: transparent;
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+        color: #fff;
+    }
+
+    .section2 .service,
+    .case-study {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service p,
+    .case-study p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .proposal-card {
+        flex-direction: column-reverse;
+    }
+
+    .proposal-card .proposal-left {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .case-study-card {
+        flex-direction: column;
+    }
+
+    .cs-border {
+        border: none;
+        padding: 0;
+    }
+}

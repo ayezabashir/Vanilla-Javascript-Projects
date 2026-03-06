@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <title>GSAP - Landing Page</title>
+</head>
+
+<body>
+
+    <!------------------- SECTION 1 -------------------------->
+    <section class="section1">
+        <!-- NAVIGATION -->
+        <nav>
+            <h1><i class="ri-shining-2-fill"></i>WizardZ</h1>
+            <div class="part2">
+                <h4>About us</h4>
+                <h4>Services</h4>
+                <h4>Use Cases</h4>
+                <h4>Pricing</h4>
+                <h4>Blog</h4>
+                <button class="requestBtn">Request a quote</button>
+                <button class="closeBtn">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <button id="menuBtn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+
+        <!-- CENTER -->
+        <div class="center">
+            <div class="center-part1">
+                <h1>
+                    Navigating the digital landscape for success
+                </h1>
+                <p>
+                    Our digital marketing agency helps businesses grow and succeed online through a range of services
+                    including SEO, PPC, social media marketing and content creation
+                </p>
+                <button>Book a Consultation</button>
+            </div>
+            <div class="center-part2">
+                <img src="images/hero_image.svg" alt="">
+            </div>
+        </div>
+
+        <!-- Images -->
+        <div class="section1bottom">
+            <img src="images/amazon.png" alt="">
+            <img src="images/dribble.png" alt="">
+            <img src="images/hubspot.png" alt="">
+            <img src="images/notions.png" alt="">
+            <img src="images/netflix.png" alt="">
+        </div>
+
+    </section>
+
+    <!------------------- SECTION 1 -------------------------->
+    <section class="section2">
+        <!-- Services -->
+        <div class="service">
+            <h3>Services</h3>
+            <p>
+                At our digital marketing agency, we offer a wide range of services to help your business grow and
+                succeed online. These services include:
+            </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="container">
+            <div class="elem line1 left">
+                <div class="elem-part1">
+                    <h2>Search Engine Optimization</h2>
+                    <h4>
+                        <i class="ri-arrow-right-up-line"></i>
+                        Learn More
+                    </h4>
+                </div>
+                <div class="elem-part2">
+                    <img src="/images/card image.svg" alt="">
+                </div>
+            </div>
+            <div class="elem black line1 right">
+                <div class="elem-part1">
+                    <h2>Pay per click advertisement</h2>
+                    <h4>
+                        <i class="ri-arrow-right-up-line"></i>
+                        Learn More
+                    </h4>
+                </div>
+                <div class="elem-part2">
+                    <img src="/images/payperclick.png" alt="">
+                </div>
+
+            </div>
+            <div class="elem black line2 left">
+                <div class="elem-part1">
+                    <h2>Social Media Marketing</h2>
+                    <h4>
+                        <i class="ri-arrow-right-up-line"></i>
+                        Learn More
+                    </h4>
+                </div>
+                <div class="elem-part2">
+                    <img src="/images/smiley.png" alt="">
+                </div>
+            </div>
+            <div class="elem line2 right">
+                <div class="elem-part1">
+                    <h2>E-mail Marketing</h2>
+                    <h4>
+                        <i class="ri-arrow-right-up-line"></i>
+                        Learn More
+                    </h4>
+                </div>
+                <div class="elem-part2">
+                    <img src="/images/customweb.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------- SECTION 3 -------------------------->
+    <section class="section3">
+        <div class="proposal-card">
+            <div class="proposal-left">
+                <h4>
+                    Let's make things happen
+                </h4>
+                <p>
+                    Contact Us Today to Learn More About How Our Digital Marketing Services Can Help Your Business Grow
+                    and Succeed Online
+                </p>
+                <button>Get your free proposal</button>
+            </div>
+            <div class="proposal-right">
+                <img src="/images/image4.svg" alt="">
+            </div>
+        </div>
+
+        <!-- Case Study -->
+        <div class="case-study-section">
+            <div class="case-study">
+                <h3>Case Study</h3>
+                <p>
+                    Explore Real-Life Experience of Our Proven Digital Marketing Success through our Case Studies.
+                </p>
+            </div>
+            <div class="case-study-card">
+                <div class="cs">
+                    <p>
+                        For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase
+                        in website traffic and a 25% increase in sales
+                    </p>
+                    <span>
+                        Learn More
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>
+                </div>
+                <div class="cs cs-border">
+                    <p>
+                        For a B2B software company, we developed an SEO strategy that resulted in a first page ranking
+                        for key keywords and a 200% increase in organic traffic
+                    </p>
+                    <span>
+                        Learn More
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>
+                </div>
+                <div class="cs">
+                    <p>
+                        For a national retail chain, we created a social media marketing campaign that increased
+                        followers by 250% and generated a 20% increase in online sales
+                    </p>
+                    <span>
+                        Learn More
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- Scroll trigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- My JS file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
